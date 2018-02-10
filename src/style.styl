@@ -1,0 +1,30 @@
+@import 'nib'
+
+.icon-default
+  width 130px
+  height 130px
+  display inline-block
+  background url("sprite.png") no-repeat
+  cursor pointer
+.icon-arrow
+  background-position 0 -100px
+.icon-fotocamera
+  background-position -465px 0px
+.icon-earth
+  background-position -555px -290px
+
+$name = 'Proxima Nova Thin'
+$path = 'fonts/'
+$file_resolution = '.otf'
+
+h1
+  font-family $name
+
+font($name, $path, $file_resolution, $file = "ProximaBoldItalic", $weight = "bold", $style = "italic")
+  @font-face
+    font-family $name
+    src url(join('', $path, $name, $file_resolution)) format("truetype")
+    font-style $style
+    font-weight $weight
+
+font($name, $path, $file_resolution)

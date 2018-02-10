@@ -1,0 +1,25 @@
+.icon-default {
+  width: 130px;
+  height: 130px;
+  display: inline-block;
+  background: url("sprite.png") no-repeat;
+  cursor: pointer;
+}
+.icon-arrow {
+  background-position: 0 -100px;
+}
+.icon-fotocamera {
+  background-position: -465px 0px;
+}
+.icon-earth {
+  background-position: -555px -290px;
+}
+h1 {
+  font-family: 'Proxima Nova Thin';
+}
+@font-face {
+  font-family: 'Proxima Nova Thin';
+  src: url("fonts/Proxima Nova Thin.otf") format("truetype");
+  font-style: "italic";
+  font-weight: "bold";
+}
